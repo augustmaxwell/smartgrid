@@ -1,7 +1,11 @@
+*Git Commands*
+**Remember** pull first then you will have the lastest version on the repo. The order for pushing new stuff is git add, git commit, git push.
 git pull (pulls all updates)
 git add <individual file name> (adds each file)
 git commit -m "comment message" (add comments)
 git push (pushes updates to repo)
 git status (status of repo)
+
+*Command Line commands*
 ls (list items in current directory)
 cd <directory> (change directory)
