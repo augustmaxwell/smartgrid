@@ -23,5 +23,14 @@ for i in vals:
     #print("brkc: %f" % (brkc))
     #print("brkd: %f" % (brkd))
 
+    #Each  individual case (number of breakers on)
+    if (brka + brkb + brkc + brkd <= 3):
+        print("This is the 3+ case")
 
+    if (brka + brkb + brkc + brkd == 2):
+        print("This is the 2 case")
+    if (brka + brkb + brkc + brkd == 1):
+        print("This is the 1 case")
 
+    if (brka + brkb + brkc + brkd == 0):
+        print("This is the 0 case")
