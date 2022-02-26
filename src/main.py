@@ -11,7 +11,7 @@ df.insert(9, "BRKb", bp_BA['BRKb'], True)
 df.insert(10, "BRKc", bp_BA['BRKc'], True)
 df.insert(11, "BRKd", bp_BA['BRKd'], True)
 
-vals= df.values
+vals = df.values
 
 for i in vals:
     brka = i[8]
@@ -26,7 +26,7 @@ for i in vals:
     #Each  individual case (number of breakers on)
     add = brka + brkb + brkc + brkd
     # 3+ Case
-    if (add <= 3):
+    if (add >= 3):
         print("This is the 3+ case")
     # 2 Case
     if (add == 2):
