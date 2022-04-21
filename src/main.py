@@ -115,21 +115,21 @@ def graph(predict):
     rect.draw(win)
 
     if predict[0] == 15 or predict[0] == 14 or predict[0] == 13 or predict[0] == 11 or predict[0] == 7:
-        BRKad = Rectangle(Point(240, 90), Point(260, 110))
+        BRKdd = Rectangle(Point(240, 90), Point(260, 110))
+        BRKdd.setFill("green")
+        BRKdd.draw(win)
+
+        BRKad = Rectangle(Point(140, 250), Point(160, 270))
         BRKad.setFill("green")
         BRKad.draw(win)
-
-        BRKbd = Rectangle(Point(140, 250), Point(160, 270))
-        BRKbd.setFill("green")
-        BRKbd.draw(win)
 
         BRKcd = Rectangle(Point(280, 340), Point(300, 360))
         BRKcd.setFill("green")
         BRKcd.draw(win)
 
-        BRKdd = Rectangle(Point(340, 215), Point(360, 235))
-        BRKdd.setFill("green")
-        BRKdd.draw(win)
+        BRKbd = Rectangle(Point(340, 215), Point(360, 235))
+        BRKbd.setFill("green")
+        BRKbd.draw(win)
 
         ln = Line(Point(150,225), Point(75,225))
         ln2 = Line(Point(350, 175), Point(425, 175))
@@ -141,21 +141,21 @@ def graph(predict):
         ln.draw(win)
 
     if predict[0] == 9:
-        BRKad = Rectangle(Point(240, 90), Point(260, 110))
-        BRKad.setFill("green")
-        BRKad.draw(win)
+        BRKdd = Rectangle(Point(240, 90), Point(260, 110))
+        BRKdd.setFill("green")
+        BRKdd.draw(win)
 
-        BRKbd = Rectangle(Point(140, 250), Point(160, 270))
-        BRKbd.setFill("red")
-        BRKbd.draw(win)
+        BRKad = Rectangle(Point(140, 250), Point(160, 270))
+        BRKad.setFill("red")
+        BRKad.draw(win)
 
         BRKcd = Rectangle(Point(280, 340), Point(300, 360))
         BRKcd.setFill("red")
         BRKcd.draw(win)
 
-        BRKdd = Rectangle(Point(340, 215), Point(360, 235))
-        BRKdd.setFill("green")
-        BRKdd.draw(win)
+        BRKbd = Rectangle(Point(340, 215), Point(360, 235))
+        BRKbd.setFill("green")
+        BRKbd.draw(win)
 
         ln = Line(Point(150, 225), Point(75, 225))
         ln2 = Line(Point(350, 175), Point(425, 175))
@@ -166,21 +166,21 @@ def graph(predict):
         ln3.draw(win)
         ln.draw(win)
     if predict[0] == 10:
-        BRKad = Rectangle(Point(240, 90), Point(260, 110))
-        BRKad.setFill("green")
-        BRKad.draw(win)
+        BRKdd = Rectangle(Point(240, 90), Point(260, 110))
+        BRKdd.setFill("green")
+        BRKdd.draw(win)
 
-        BRKbd = Rectangle(Point(140, 250), Point(160, 270))
-        BRKbd.setFill("red")
-        BRKbd.draw(win)
+        BRKad = Rectangle(Point(140, 250), Point(160, 270))
+        BRKad.setFill("red")
+        BRKad.draw(win)
 
         BRKcd = Rectangle(Point(280, 340), Point(300, 360))
         BRKcd.setFill("green")
         BRKcd.draw(win)
 
-        BRKdd = Rectangle(Point(340, 215), Point(360, 235))
-        BRKdd.setFill("red")
-        BRKdd.draw(win)
+        BRKbd = Rectangle(Point(340, 215), Point(360, 235))
+        BRKbd.setFill("red")
+        BRKbd.draw(win)
 
         ln = Line(Point(150, 225), Point(75, 225))
         ln2 = Line(Point(350, 175), Point(425, 175))
@@ -191,21 +191,21 @@ def graph(predict):
         ln3.draw(win)
         ln.draw(win)
     if predict[0] == 12:
-        BRKad = Rectangle(Point(240, 90), Point(260, 110))
+        BRKdd = Rectangle(Point(240, 90), Point(260, 110))
+        BRKdd.setFill("green")
+        BRKdd.draw(win)
+
+        BRKad = Rectangle(Point(140, 250), Point(160, 270))
         BRKad.setFill("green")
         BRKad.draw(win)
-
-        BRKbd = Rectangle(Point(140, 250), Point(160, 270))
-        BRKbd.setFill("green")
-        BRKbd.draw(win)
 
         BRKcd = Rectangle(Point(280, 340), Point(300, 360))
         BRKcd.setFill("red")
         BRKcd.draw(win)
 
-        BRKdd = Rectangle(Point(340, 215), Point(360, 235))
-        BRKdd.setFill("red")
-        BRKdd.draw(win)
+        BRKbd = Rectangle(Point(340, 215), Point(360, 235))
+        BRKbd.setFill("red")
+        BRKbd.draw(win)
 
         ln = Line(Point(150, 225), Point(75, 225))
         ln2 = Line(Point(350, 175), Point(425, 175))
@@ -216,21 +216,21 @@ def graph(predict):
         ln3.draw(win)
         ln.draw(win)
     if predict[0] == 5:
-        BRKad = Rectangle(Point(240, 90), Point(260, 110))
-        BRKad.setFill("red")
-        BRKad.draw(win)
+        BRKdd = Rectangle(Point(240, 90), Point(260, 110))
+        BRKdd.setFill("red")
+        BRKdd.draw(win)
 
-        BRKbd = Rectangle(Point(140, 250), Point(160, 270))
-        BRKbd.setFill("green")
-        BRKbd.draw(win)
+        BRKad = Rectangle(Point(140, 250), Point(160, 270))
+        BRKad.setFill("green")
+        BRKad.draw(win)
 
         BRKcd = Rectangle(Point(280, 340), Point(300, 360))
         BRKcd.setFill("red")
         BRKcd.draw(win)
 
-        BRKdd = Rectangle(Point(340, 215), Point(360, 235))
-        BRKdd.setFill("green")
-        BRKdd.draw(win)
+        BRKbd = Rectangle(Point(340, 215), Point(360, 235))
+        BRKbd.setFill("green")
+        BRKbd.draw(win)
 
         ln = Line(Point(150, 225), Point(75, 225))
         ln2 = Line(Point(350, 175), Point(425, 175))
@@ -241,21 +241,21 @@ def graph(predict):
         ln3.draw(win)
         ln.draw(win)
     if predict[0] == 3:
-        BRKad = Rectangle(Point(240, 90), Point(260, 110))
+        BRKdd = Rectangle(Point(240, 90), Point(260, 110))
+        BRKdd.setFill("red")
+        BRKdd.draw(win)
+
+        BRKad = Rectangle(Point(140, 250), Point(160, 270))
         BRKad.setFill("red")
         BRKad.draw(win)
-
-        BRKbd = Rectangle(Point(140, 250), Point(160, 270))
-        BRKbd.setFill("red")
-        BRKbd.draw(win)
 
         BRKcd = Rectangle(Point(280, 340), Point(300, 360))
         BRKcd.setFill("green")
         BRKcd.draw(win)
 
-        BRKdd = Rectangle(Point(340, 215), Point(360, 235))
-        BRKdd.setFill("green")
-        BRKdd.draw(win)
+        BRKbd = Rectangle(Point(340, 215), Point(360, 235))
+        BRKbd.setFill("green")
+        BRKbd.draw(win)
 
         ln = Line(Point(150, 225), Point(75, 225))
         ln2 = Line(Point(350, 175), Point(425, 175))
@@ -266,21 +266,21 @@ def graph(predict):
         ln3.draw(win)
         ln.draw(win)
     if predict[0] == 6:
-        BRKad = Rectangle(Point(240, 90), Point(260, 110))
-        BRKad.setFill("red")
-        BRKad.draw(win)
+        BRKdd = Rectangle(Point(240, 90), Point(260, 110))
+        BRKdd.setFill("red")
+        BRKdd.draw(win)
 
-        BRKbd = Rectangle(Point(140, 250), Point(160, 270))
-        BRKbd.setFill("green")
-        BRKbd.draw(win)
+        BRKad = Rectangle(Point(140, 250), Point(160, 270))
+        BRKad.setFill("green")
+        BRKad.draw(win)
 
         BRKcd = Rectangle(Point(280, 340), Point(300, 360))
         BRKcd.setFill("green")
         BRKcd.draw(win)
 
-        BRKdd = Rectangle(Point(340, 215), Point(360, 235))
-        BRKdd.setFill("red")
-        BRKdd.draw(win)
+        BRKad = Rectangle(Point(340, 215), Point(360, 235))
+        BRKad.setFill("red")
+        BRKad.draw(win)
 
         ln = Line(Point(150, 225), Point(75, 225))
         ln2 = Line(Point(350, 175), Point(425, 175))
@@ -291,21 +291,21 @@ def graph(predict):
         ln3.draw(win)
         ln.draw(win)
     if predict[0] == 1:
-        BRKad = Rectangle(Point(240, 90), Point(260, 110))
+        BRKdd = Rectangle(Point(240, 90), Point(260, 110))
+        BRKdd.setFill("red")
+        BRKdd.draw(win)
+
+        BRKad = Rectangle(Point(140, 250), Point(160, 270))
         BRKad.setFill("red")
         BRKad.draw(win)
-
-        BRKbd = Rectangle(Point(140, 250), Point(160, 270))
-        BRKbd.setFill("red")
-        BRKbd.draw(win)
 
         BRKcd = Rectangle(Point(280, 340), Point(300, 360))
         BRKcd.setFill("red")
         BRKcd.draw(win)
 
-        BRKdd = Rectangle(Point(340, 215), Point(360, 235))
-        BRKdd.setFill("green")
-        BRKdd.draw(win)
+        BRKbd = Rectangle(Point(340, 215), Point(360, 235))
+        BRKbd.setFill("green")
+        BRKbd.draw(win)
 
         ln = Line(Point(150, 225), Point(75, 225))
         ln2 = Line(Point(350, 175), Point(425, 175))
@@ -316,21 +316,21 @@ def graph(predict):
         ln3.draw(win)
         ln.draw(win)
     if predict[0] == 2:
-        BRKad = Rectangle(Point(240, 90), Point(260, 110))
+        BRKdd = Rectangle(Point(240, 90), Point(260, 110))
+        BRKdd.setFill("red")
+        BRKdd.draw(win)
+
+        BRKad = Rectangle(Point(140, 250), Point(160, 270))
         BRKad.setFill("red")
         BRKad.draw(win)
-
-        BRKbd = Rectangle(Point(140, 250), Point(160, 270))
-        BRKbd.setFill("red")
-        BRKbd.draw(win)
 
         BRKcd = Rectangle(Point(280, 340), Point(300, 360))
         BRKcd.setFill("green")
         BRKcd.draw(win)
 
-        BRKdd = Rectangle(Point(340, 215), Point(360, 235))
-        BRKdd.setFill("red")
-        BRKdd.draw(win)
+        BRKbd = Rectangle(Point(340, 215), Point(360, 235))
+        BRKbd.setFill("red")
+        BRKbd.draw(win)
 
         ln = Line(Point(150, 225), Point(75, 225))
         ln2 = Line(Point(350, 175), Point(425, 175))
@@ -341,21 +341,21 @@ def graph(predict):
         ln3.draw(win)
         ln.draw(win)
     if predict[0] == 4:
-        BRKad = Rectangle(Point(240, 90), Point(260, 110))
-        BRKad.setFill("red")
-        BRKad.draw(win)
+        BRKdd = Rectangle(Point(240, 90), Point(260, 110))
+        BRKdd.setFill("red")
+        BRKdd.draw(win)
 
-        BRKbd = Rectangle(Point(140, 250), Point(160, 270))
-        BRKbd.setFill("green")
-        BRKbd.draw(win)
+        BRKad = Rectangle(Point(140, 250), Point(160, 270))
+        BRKad.setFill("green")
+        BRKad.draw(win)
 
         BRKcd = Rectangle(Point(280, 340), Point(300, 360))
         BRKcd.setFill("red")
         BRKcd.draw(win)
 
-        BRKdd = Rectangle(Point(340, 215), Point(360, 235))
-        BRKdd.setFill("red")
-        BRKdd.draw(win)
+        BRKbd = Rectangle(Point(340, 215), Point(360, 235))
+        BRKbd.setFill("red")
+        BRKbd.draw(win)
 
         ln = Line(Point(150, 225), Point(75, 225))
         ln2 = Line(Point(350, 175), Point(425, 175))
@@ -366,21 +366,21 @@ def graph(predict):
         ln3.draw(win)
         ln.draw(win)
     if predict[0] == 8:
-        BRKad = Rectangle(Point(240, 90), Point(260, 110))
-        BRKad.setFill("green")
-        BRKad.draw(win)
+        BRKdd = Rectangle(Point(240, 90), Point(260, 110))
+        BRKdd.setFill("green")
+        BRKdd.draw(win)
 
-        BRKbd = Rectangle(Point(140, 250), Point(160, 270))
-        BRKbd.setFill("red")
-        BRKbd.draw(win)
+        BRKad = Rectangle(Point(140, 250), Point(160, 270))
+        BRKad.setFill("red")
+        BRKad.draw(win)
 
         BRKcd = Rectangle(Point(280, 340), Point(300, 360))
         BRKcd.setFill("red")
         BRKcd.draw(win)
 
-        BRKdd = Rectangle(Point(340, 215), Point(360, 235))
-        BRKdd.setFill("red")
-        BRKdd.draw(win)
+        BRKbd = Rectangle(Point(340, 215), Point(360, 235))
+        BRKbd.setFill("red")
+        BRKbd.draw(win)
 
         ln = Line(Point(150, 225), Point(75, 225))
         ln2 = Line(Point(350, 175), Point(425, 175))
@@ -391,21 +391,21 @@ def graph(predict):
         ln3.draw(win)
         ln.draw(win)
     if predict[0] == 0:
-        BRKad = Rectangle(Point(240, 90), Point(260, 110))
+        BRKdd = Rectangle(Point(240, 90), Point(260, 110))
+        BRKdd.setFill("red")
+        BRKdd.draw(win)
+
+        BRKad = Rectangle(Point(140, 250), Point(160, 270))
         BRKad.setFill("red")
         BRKad.draw(win)
-
-        BRKbd = Rectangle(Point(140, 250), Point(160, 270))
-        BRKbd.setFill("red")
-        BRKbd.draw(win)
 
         BRKcd = Rectangle(Point(280, 340), Point(300, 360))
         BRKcd.setFill("red")
         BRKcd.draw(win)
 
-        BRKdd = Rectangle(Point(340, 215), Point(360, 235))
-        BRKdd.setFill("red")
-        BRKdd.draw(win)
+        BRKbd = Rectangle(Point(340, 215), Point(360, 235))
+        BRKbd.setFill("red")
+        BRKbd.draw(win)
 
         ln = Line(Point(150, 225), Point(75, 225))
         ln2 = Line(Point(350, 175), Point(425, 175))
@@ -437,5 +437,5 @@ def graph(predict):
 #         yhat = model.predict(np.asarray([buff]))
 #         yhat_1 = np.argmax(yhat, axis=1)
 #         predict = yhat_1
-predict = [5]
+predict = [3]
 graph(predict)
